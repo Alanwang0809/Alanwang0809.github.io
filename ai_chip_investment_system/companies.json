@@ -1,0 +1,71 @@
+{
+  "ai_chip_companies": [
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "chinese_name": "英伟达",
+      "market_cap_usd": "2.5万亿",
+      "focus_area": ["GPU", "AI训练", "数据中心", "自动驾驶"],
+      "technology_route": "GPU+软件生态全栈",
+      "competitive_advantage": "CUDA生态垄断，全产业链布局",
+      "risk_factors": ["地缘政治风险", "竞争加剧", "监管压力"],
+      "investment_score": 8.5,
+      "last_updated": "2026-03-10"
+    },
+    {
+      "id": "huawei_ascend",
+      "name": "华为昇腾",
+      "chinese_name": "华为昇腾",
+      "market_cap_usd": "N/A (未上市)",
+      "focus_area": ["全栈AI", "国产替代", "云计算", "边缘计算"],
+      "technology_route": "自主芯片+框架+应用",
+      "competitive_advantage": "政府支持，场景落地能力强",
+      "risk_factors": ["供应链限制", "国际市场竞争", "技术迭代压力"],
+      "investment_score": 8.2,
+      "last_updated": "2026-03-10"
+    },
+    {
+      "id": "cambricon",
+      "name": "Cambricon",
+      "chinese_name": "寒武纪",
+      "market_cap_usd": "800亿",
+      "focus_area": ["云端训练芯片", "边缘推理", "IP授权"],
+      "technology_route": "专用AI处理器",
+      "competitive_advantage": "学术背景强，专利积累深厚",
+      "risk_factors": ["商业化能力弱", "客户集中度高", "盈利压力"],
+      "investment_score": 7.2,
+      "last_updated": "2026-03-10"
+    },
+    {
+      "id": "horizon",
+      "name": "Horizon Robotics",
+      "chinese_name": "地平线",
+      "market_cap_usd": "N/A (未上市)",
+      "focus_area": ["自动驾驶芯片", "智能座舱", "机器人"],
+      "technology_route": "车规级AI芯片",
+      "competitive_advantage": "车规认证齐全，车企合作深入",
+      "risk_factors": ["竞争激烈", "研发投入大", "市场验证周期长"],
+      "investment_score": 7.8,
+      "last_updated": "2026-03-10"
+    },
+    {
+      "id": "iluvatar",
+      "name": "Iluvatar CoreX",
+      "chinese_name": "燧原科技",
+      "market_cap_usd": "N/A (未上市)",
+      "focus_area": ["云端推理芯片", "数据中心", "AI计算"],
+      "technology_route": "通用AI推理芯片",
+      "competitive_advantage": "腾讯生态支持，性价比优势",
+      "risk_factors": ["NVIDIA竞争", "生态建设挑战", "资金需求大"],
+      "investment_score": 6.9,
+      "last_updated": "2026-03-10"
+    }
+  ],
+  "metadata": {
+    "total_companies": 5,
+    "update_frequency": "daily",
+    "data_source": "公开信息整理",
+    "created_date": "2026-03-10",
+    "created_by": "小龙虾 (Alan的AI伙伴)"
+  }
+}

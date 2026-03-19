@@ -1,0 +1,88 @@
+# 交易员系统配置
+
+system:
+  name: "小龙虾交易员"
+  version: "1.0.0"
+  mode: "development"  # development, testing, production
+
+data_sources:
+  stocks:
+    - provider: "yfinance"
+      enabled: true
+    - provider: "alpha_vantage"
+      api_key: "${ALPHA_VANTAGE_KEY}"
+      enabled: false
+  crypto:
+    - provider: "coingecko"
+      enabled: true
+    - provider: "coinmarketcap"
+      api_key: "${COINMARKETCAP_KEY}"
+      enabled: false
+
+markets:
+  a_shares:
+    enabled: true
+    symbols: ["000001.SZ", "000002.SZ", "600000.SS"]
+  hk_stocks:
+    enabled: true
+    symbols: ["0700.HK", "9988.HK", "3690.HK"]
+  us_stocks:
+    enabled: true
+    symbols: ["AAPL", "TSLA", "NVDA"]
+  crypto:
+    enabled: true
+    symbols: ["BTC-USD", "ETH-USD", "BNB-USD"]
+
+analysis:
+  technical_indicators:
+    - "sma"      # 简单移动平均
+    - "ema"      # 指数移动平均
+    - "rsi"      # 相对强弱指数
+    - "macd"     # 移动平均收敛发散
+    - "bollinger" # 布林带
+    - "stochastic" # 随机指标
+    - "atr"      # 平均真实波幅
+  timeframes:
+    - "1m"       # 1分钟
+    - "5m"       # 5分钟
+    - "15m"      # 15分钟
+    - "1h"       # 1小时
+    - "4h"       # 4小时
+    - "1d"       # 日线
+    - "1w"       # 周线
+
+strategies:
+  enabled:
+    - "trend_following"
+    - "mean_reversion"
+    - "breakout"
+    - "arbitrage"
+  default: "trend_following"
+
+risk_management:
+  max_position_size: 0.05  # 单笔最大仓位 5%
+  max_portfolio_risk: 0.20 # 组合最大风险 20%
+  stop_loss:
+    method: "atr"          # atr, percentage, support_resistance
+    value: 2.0             # 2倍ATR
+  take_profit:
+    method: "risk_reward"
+    ratio: 2.0             # 风险回报比 1:2
+
+monitoring:
+  price_alerts: true
+  news_alerts: true
+  technical_signals: true
+  check_interval: 300      # 检查间隔（秒）
+
+logging:
+  level: "INFO"
+  file: "logs/trading.log"
+  max_size: "100MB"
+  backup_count: 10
+
+api:
+  enabled: true
+  host: "0.0.0.0"
+  port: 8000
+  auth_required: true

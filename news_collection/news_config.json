@@ -1,0 +1,175 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-03-16",
+  "updated_by": "小龙虾 🦞",
+  "description": "多源新闻收集配置 - 根据Alan的反馈优化",
+  
+  "user_preferences": {
+    "name": "Alan",
+    "language_preference": ["zh", "en"],
+    "primary_interests": [
+      "AI人工智能",
+      "新能源",
+      "商业航天",
+      "投资银行",
+      "国际关系",
+      "科技创新"
+    ],
+    "preferred_sources": {
+      "chinese": ["财新网", "澎湃新闻", "36氪"],
+      "english": ["BBC News", "Reuters", "Bloomberg"]
+    },
+    "news_format": {
+      "required_elements": ["时间", "主体", "事件", "影响", "原文链接"],
+      "event_detail_level": "详细",
+      "impact_detail_level": "详细",
+      "include_chinese_summary_for_english": true
+    }
+  },
+  
+  "news_sources": {
+    "chinese": [
+      {
+        "id": "sina",
+        "name": "新浪新闻",
+        "url": "https://news.sina.com.cn",
+        "categories": ["综合", "财经", "科技"],
+        "priority": 3,
+        "enabled": true,
+        "notes": "覆盖面广，更新快"
+      },
+      {
+        "id": "caixin",
+        "name": "财新网",
+        "url": "https://www.caixin.com",
+        "categories": ["财经", "商业"],
+        "priority": 1,
+        "enabled": true,
+        "notes": "专业财经报道，深度分析"
+      },
+      {
+        "id": "thepaper",
+        "name": "澎湃新闻",
+        "url": "https://www.thepaper.cn",
+        "categories": ["综合", "时政"],
+        "priority": 2,
+        "enabled": true,
+        "notes": "深度报道，原创内容"
+      },
+      {
+        "id": "36kr",
+        "name": "36氪",
+        "url": "https://36kr.com",
+        "categories": ["科技", "创业"],
+        "priority": 2,
+        "enabled": true,
+        "notes": "科技创新，创业投资"
+      },
+      {
+        "id": "huxiu",
+        "name": "虎嗅",
+        "url": "https://www.huxiu.com",
+        "categories": ["科技", "商业"],
+        "priority": 3,
+        "enabled": true,
+        "notes": "科技商业分析"
+      }
+    ],
+    
+    "english": [
+      {
+        "id": "bbc",
+        "name": "BBC News",
+        "url": "https://www.bbc.com/news",
+        "categories": ["International", "Politics", "Technology"],
+        "priority": 1,
+        "enabled": true,
+        "notes": "权威国际新闻，覆盖面广"
+      },
+      {
+        "id": "reuters",
+        "name": "Reuters",
+        "url": "https://www.reuters.com",
+        "categories": ["Business", "Finance", "Markets"],
+        "priority": 1,
+        "enabled": true,
+        "notes": "专业财经新闻，实时性强"
+      },
+      {
+        "id": "bloomberg",
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com",
+        "categories": ["Business", "Finance", "Markets"],
+        "priority": 1,
+        "enabled": true,
+        "notes": "专业财经分析，深度报道"
+      },
+      {
+        "id": "ft",
+        "name": "Financial Times",
+        "url": "https://www.ft.com",
+        "categories": ["Business", "Finance", "Economics"],
+        "priority": 2,
+        "enabled": true,
+        "notes": "深度财经分析，全球视野"
+      },
+      {
+        "id": "economist",
+        "name": "The Economist",
+        "url": "https://www.economist.com",
+        "categories": ["Economics", "Politics", "Business"],
+        "priority": 3,
+        "enabled": true,
+        "notes": "深度分析，观点独特"
+      }
+    ]
+  },
+  
+  "collection_settings": {
+    "max_news_per_source": 5,
+    "max_total_news": 30,
+    "time_range_hours": 24,
+    "interest_keywords": [
+      "AI", "artificial intelligence", "machine learning", "大模型", "人工智能",
+      "新能源", "new energy", "electric vehicle", "EV", "battery", "储能",
+      "商业航天", "commercial space", "satellite", "rocket", "SpaceX",
+      "economy", "finance", "investment", "stock", "市场", "经济",
+      "China", "US", "trade", "外交", "国际关系",
+      "technology", "innovation", "startup", "科技", "创新"
+    ],
+    "output_format": "markdown",
+    "include_source_statistics": true,
+    "auto_translate_english": true
+  },
+  
+  "delivery_settings": {
+    "send_time": "08:30",
+    "timezone": "Asia/Shanghai",
+    "channels": ["feishu_group", "feishu_dm"],
+    "format_style": "detailed",
+    "include_summary": true,
+    "include_statistics": true
+  },
+  
+  "quality_control": {
+    "min_event_detail_length": 100,
+    "min_impact_points": 3,
+    "url_validation": true,
+    "duplicate_check": true,
+    "source_credibility_check": true
+  },
+  
+  "update_history": [
+    {
+      "date": "2026-03-16",
+      "version": "1.0",
+      "changes": [
+        "初始创建",
+        "根据Alan反馈增加英文新闻源",
+        "增加多源支持",
+        "优化用户兴趣配置"
+      ],
+      "updated_by": "小龙虾"
+    }
+  ]
+}

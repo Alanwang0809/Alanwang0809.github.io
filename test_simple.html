@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>简单测试 - 新闻数据加载</title>
+</head>
+<body>
+    <h1>新闻数据加载测试</h1>
+    
+    <div id="result">测试中...</div>
+    
+    <script>
+        async function testDataLoad() {
+            const resultDiv = document.getElementById('result');
+            
+            try {
+                // 测试1: 直接访问news-data.json
+                resultDiv.innerHTML = '<p>测试1: 尝试访问 news-data.json...</p>';
+                const response = await fetch('news-data.json');
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    resultDiv.innerHTML += `
+                        <p style="color: green;">✅ 数据文件访问成功！</p>
+                        <p>文件信息:</p>
+                        <ul>
+                            <li>生成时间: ${data.metadata?.generated_at || '未知'}</li>
+                            <li>新闻数量: ${data.metadata?.total_news || 0}</li>
+                            <li>数据源: ${data.metadata?.source || '未知'}</li>
+                        </ul>
+                        <p>第一条新闻标题: ${data.news?.[0]?.title || '无'}</p>
+                    `;
+                } else {
+                    resultDiv.innerHTML += `<p style="color: red;">❌ 访问失败: ${response.status} ${response.statusText}</p>`;
+                }
+                
+            } catch (error) {
+                resultDiv.innerHTML += `<p style="color: red;">❌ 错误: ${error.message}</p>`;
+            }
+        }
+        
+        // 运行测试
+        testDataLoad();
+    </script>
+</body>
+</html>

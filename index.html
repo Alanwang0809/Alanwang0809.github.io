@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每日新闻汇总 - 小龙虾AI新闻站</title>
+    <style>
+        :root {
+            --primary-color: #4CAF50;
+            --primary-dark: #2E7D32;
+            --primary-light: #81C784;
+            --accent-color: #A5D6A7;
+            --text-color: #333333;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --border-color: #e0e0e0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+            color: white;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .header .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+        
+        .update-time {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            display: inline-block;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+        
+        .ai-powered {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-top: 10px;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .stat-item {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 12px 20px;
+            border-radius: 10px;
+            min-width: 120px;
+        }
+        
+        .stat-number {
+            font-size: 1.8rem;
+            font-weight: bold;
+            display: block;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+        
+        .category-filter {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .category-btn {
+            padding: 10px 20px;
+            background: var(--card-bg);
+            border: 2px solid var(--primary-light);
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .category-btn:hover,
+        .category-btn.active {
+            background: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+        
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        
+        .news-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-left: 4px solid var(--primary-color);
+        }
+        
+        .news-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+        }
+        
+        .news-category {
+            display: inline-block;
+            padding: 4px 12px;
+            background: var(--accent-color);
+            color: var(--primary-dark);
+            border-radius: 15px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+        
+        .news-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: var(--text-color);
+            line-height: 1.4;
+        }
+        
+        .news-time {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .news-content {
+            margin-bottom: 20px;
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        .news-impact {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 3px solid var(--primary-light);
+        }
+        
+        .news-impact h4 {
+            color: var(--primary-dark);
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+        
+        .news-impact ul {
+            padding-left: 20px;
+        }
+        
+        .news-impact li {
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+        }
+        
+        .news-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 16px;
+            border: 1px solid var(--primary-light);
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+        
+        .news-link:hover {
+            background: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+            border-top: 1px solid var(--border-color);
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats {
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+            }
+            
+            .stat-item {
+                width: 100%;
+                max-width: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📰 每日新闻汇总</h1>
+        <div class="subtitle">AI驱动的新闻精选，聚焦AI、新能源、商业航天领域</div>
+        <div class="update-time">最后更新: <span id="current-date">2026-03-19</span> <span id="current-time">00:32</span></div>
+        
+        <div class="ai-powered">
+            <span>🦞 由小龙虾AI自动收集整理</span>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-number" id="total-news">4</span>
+                <span class="stat-label">今日新闻总数</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="international-news">1</span>
+                <span class="stat-label">国际新闻</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="ai-news">1</span>
+                <span class="stat-label">AI领域新闻</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="energy-news">1</span>
+                <span class="stat-label">新能源新闻</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="category-filter">
+        <button class="category-btn active" data-category="all">全部新闻</button>
+        <button class="category-btn" data-category="system">系统消息</button>
+        <button class="category-btn" data-category="international">国际新闻</button>
+        <button class="category-btn" data-category="ai">AI人工智能</button>
+        <button class="category-btn" data-category="energy">新能源</button>
+    </div>
+    
+    <div class="news-grid" id="news-container">
+        <!-- 新闻内容将通过JavaScript动态加载 -->
+    </div>
+    
+    <div class="footer">
+        <p>本网站由 <a href="https://github.com/alanwang0809" target="_blank">Alan</a> 维护，新闻由小龙虾AI自动收集整理</p>
+        <p>数据来源：新浪新闻、澎湃新闻、36氪、虎嗅等权威媒体</p>
+        <p>更新时间：每日08:30自动更新 | <a href="https://github.com/alanwang0809/alanwang0809.github.io" target="_blank">查看源代码</a></p>
+        <p style="margin-top: 15px; font-size: 0.8rem; color: #888;">
+            🦞 小龙虾AI - 你的专业新闻助手 | 主题色：#4CAF50 (绿色护眼模式)
+        </p>
+    </div>
+    
+    <script>
+        // 新闻数据（内联，确保一定能加载）
+        const newsData = {
+            "metadata": {
+                "generated_at": "2026-03-19T00:40:00+08:00",
+                "source": "系统测试更新",
+                "total_news": 4,
+                "categories": ["system", "international", "ai", "energy"],
+                "purpose": "测试自动更新功能 - 添加国际新闻"
+            },
+            "news": [
+                {
+                    "id": 1,
+                    "order": 0,
+                    "title": "🦞 新闻网站自动化系统测试更新",
+                    "category": "system",
+                    "time": "2026-03-19 00:40",
+                    "subject": "小龙虾AI",
+                    "event": "新闻网站正在测试自动更新功能。这是实时更新测试：添加了一条国际新闻，验证系统能正确处理多类别新闻更新。",
+                    "impact": [
+                        "验证新闻数据文件更新功能",
+                        "测试多类别新闻同时显示",
+                        "确认GitHub自动推送流程",
+                        "为明天08:30的正式自动更新做准备"
+                    ],
+                    "link": "https://github.com/alanwang0809/alanwang0809.github.io"
+                },
+                {
+                    "id": 2,
+                    "order": 1,
+                    "title": "🌍 中美达成新一轮贸易协议框架",
+                    "category": "international",
+                    "time": "2026-03-19 09:15",
+                    "subject": "中美两国政府",
+                    "event": "中美两国经过多轮谈判，就新一轮贸易协议达成框架性共识。协议涵盖关税减免、技术合作、市场准入等多个领域，标志着两国经贸关系进入新阶段。",
+                    "impact": [
+                        "降低双边贸易成本，促进进出口增长",
+                        "缓解全球供应链紧张局势",
+                        "为科技合作创造更开放环境",
+                        "提升全球投资者对经济复苏的信心"
+                    ],
+                    "link": "https://example.com/us-china-trade-deal-2026"
+                },
+                {
+                    "id": 3,
+                    "order": 2,
+                    "title": "🤖 AI大模型竞争进入新阶段",
+                    "category": "ai",
+                    "time": "2026-03-19",
+                    "subject": "全球AI巨头",
+                    "event": "OpenAI、Google、微软等公司纷纷发布新一代AI模型，在推理能力、多模态理解和实时学习方面取得突破。中国AI公司也在快速追赶，形成全球竞争格局。",
+                    "impact": [
+                        "AI应用加速普及到各行各业",
+                        "算力需求持续增长，带动芯片产业发展",
+                        "AI人才竞争加剧，相关岗位需求旺盛",
+                        "投资机会集中在AI基础设施和行业解决方案"
+                    ],
+                    "link": "https://example.com/ai-competition-2026"
+                },
+                {
+                    "id": 4,
+                    "order": 3,
+                    "title": "🔋 新能源汽车快充技术突破",
+                    "category": "energy",
+                    "time": "2026-03-19",
+                    "subject": "新能源汽车行业",
+                    "event": "多家车企宣布快充技术取得重大突破，充电时间从1小时缩短到15分钟。同时，全国充电网络建设加速，高速公路服务区充电桩覆盖率超过90%。",
+                    "impact": [
+                        "大幅缓解电动汽车续航焦虑",
+                        "促进新能源汽车销量进一步增长",
+                        "充电基础设施投资机会增加",
+                        "推动电池技术进步和成本下降"
+                    ],
+                    "link": "https://example.com/ev-charging-breakthrough"
+                }
+            ]
+        };
+        
+        // 初始化函数
+        function initWebsite() {
+            // 更新日期时间
+            updateDateTime();
+            
+            // 渲染新闻
+            renderNews();
+            
+            // 更新统计信息
+            updateStats();
+            
+            // 每分钟更新一次时间
+            setInterval(updateDateTime, 60000);
+        }
+        
+        // 更新日期时间
+        function updateDateTime() {
+            const now = new Date();
+            const dateStr = now.toLocaleDateString('zh-CN', { 
+                year: 'numeric', 
+                month: '2-digit', 
+                day: '2-digit' 
+            }).replace(/\//g, '-');
+            
+            const timeStr = now.toLocaleTimeString('zh-CN', { 
+                hour: '2-digit', 
+                minute: '2-digit' 
+            });
+            
+            document.getElementById('current-date').textContent = dateStr;
+            document.getElementById('current-time').textContent = timeStr;
+        }
+        
+        // 渲染新闻
+        function renderNews(category = 'all') {
+            const container = document.getElementById('news-container');
+            
+            if (!newsData.news || newsData.news.length === 0) {
+                container.innerHTML = '<div style="text-align: center; padding: 40px; color: #666;">暂无新闻数据</div>';
+                return;
+            }
+            
+            let filteredNews = newsData.news;
+            if (category !== 'all') {
+                filteredNews = newsData.news.filter(news => news.category === category);
+            }
+            
+            if (filteredNews.length === 0) {
+                container.innerHTML = '<div style="text-align: center; padding: 40px; color: #666;">该分类暂无新闻</div>';
+                return;
+            }
+            
+            container.innerHTML = filteredNews.map(news => `
+                <div class="news-card" data-category="${news.category}">
+                    <div class="news-category">${getCategoryLabel(news.category)}</div>
+                    <h3 class="news-title">${news.title}</h3>
+                    <div class="news-time">
+                        <span>📅</span> ${news.time} | <span>👤</span> ${news.subject}
+                    </div>
+                    <div class="news-content">
+                        ${news.event}
+                    </div>
+                    <div class="news-impact">
+                        <h4>📈 影响分析：</h4>
+                        <ul>
+                            ${news.impact.map(item => `<li>${item}</li>`).join('')}
+                        </ul>
+                    </div>
+                    <a href="${news.link}" class="news-link" target="_blank" rel="noopener">
+                        <span>🔗</span> 查看原文
+                    </a>
+                </div>
+            `).join('');
+        }
+        
+        // 获取分类标签
+        function getCategoryLabel(category) {
+            const labels = {
+                'system': '🦞 系统消息',
+                'international': '🌍 国际新闻',
+                'ai': '🤖 AI人工智能',
+                'energy': '🔋 新能源',
+                'space': '🚀 商业航天',
+                'economy': '💰 经济金融',
+                'tech': '💻 科技动态'
+            };
+            return labels[category] || '📰 综合新闻';
+        }
+        
+        // 更新统计信息
+        function updateStats() {
+            if (!newsData.news) return;
+            
+            const total = newsData.news.length;
+            const internationalCount = newsData.news.filter(news => news.category === 'international').length;
+            const aiCount = newsData.news.filter(news => news.category === 'ai').length;
+            const energyCount = newsData.news.filter(news => news.category === 'energy').length;
+            
+            document.getElementById('total-news').textContent = total;
+            document.getElementById('international-news').textContent = internationalCount;
+            document.getElementById('ai-news').textContent = aiCount;
+            document.getElementById('energy-news').textContent = energyCount;
+        }
+        
+        // 分类筛选
+        function setupCategoryFilter() {
+            document.querySelectorAll('.category-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    const category = this.getAttribute('data-category');
+                    renderNews(category);
+                });
+            });
+        }
+        
+        // 初始化函数
+        function initWebsite() {
+            // 更新日期时间
+            updateDateTime();
+            
+            // 渲染新闻
+            renderNews();
+            
+            // 更新统计信息
+            updateStats();
+            
+            // 设置分类筛选
+            setupCategoryFilter();
+            
+            // 每分钟更新一次时间
+            setInterval(updateDateTime, 60000);
+        }
+        
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', initWebsite);
+        
+        // 如果DOM已经加载完成，直接初始化
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initWebsite);
+        } else {
+            initWebsite();
+        }
+    </script>
+</body>
+</html>

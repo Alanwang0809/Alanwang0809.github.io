@@ -1,0 +1,22 @@
+{
+  "name": "crayfish-trader",
+  "version": "1.0.0",
+  "description": "小龙虾交易系统 - JavaScript版本",
+  "main": "trading_api.js",
+  "scripts": {
+    "start": "node trading_api.js",
+    "monitor": "node trading_api.js",
+    "test": "echo \"运行测试: node test_api.js\" && node test_api.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.6"
+  },
+  "keywords": [
+    "trading",
+    "stocks",
+    "crypto",
+    "monitoring"
+  ],
+  "author": "小龙虾交易系统",
+  "license": "MIT"
+}

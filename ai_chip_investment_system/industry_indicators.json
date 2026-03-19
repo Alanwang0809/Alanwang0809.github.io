@@ -1,0 +1,55 @@
+{
+  "market_metrics": {
+    "global_market_size_usd": "1500亿 (2026预测)",
+    "china_market_share": "28%",
+    "growth_rate_cagr": "38%",
+    "investment_heat_index": 85,
+    "policy_support_level": "高"
+  },
+  "technology_trends": {
+    "current_generation": "第三代：异构计算 (CPU+GPU+NPU)",
+    "next_generation": "第四代：量子+神经形态计算",
+    "key_breakthroughs": ["存算一体", "Chiplet技术", "光子计算"],
+    "bottlenecks": ["先进制程限制", "能耗挑战", "软件生态"]
+  },
+  "supply_chain_analysis": {
+    "upstream": {
+      "eda_tools": "国产化率10%，主要依赖国外",
+      "ip_cores": "ARM架构主导，RISC-V崛起",
+      "design_services": "快速增长，专业分工细化"
+    },
+    "midstream": {
+      "chip_design": "设计公司超过100家",
+      "manufacturing": "7nm以下依赖台积电/三星",
+      "packaging_testing": "中国封装测试全球领先"
+    },
+    "downstream": {
+      "application_scenarios": ["数据中心", "自动驾驶", "消费电子", "工业制造"],
+      "demand_growth": "算力需求每3-4个月翻倍",
+      "key_customers": "云厂商、车企、手机厂商"
+    }
+  },
+  "investment_themes": {
+    "theme_1": {
+      "name": "国产替代",
+      "description": "EDA工具、IP核、制造设备国产化",
+      "potential_companies": ["华大九天", "芯原股份", "中微公司"]
+    },
+    "theme_2": {
+      "name": "垂直场景",
+      "description": "自动驾驶、工业视觉、生物计算专用芯片",
+      "potential_companies": ["地平线", "黑芝麻", "初创公司"]
+    },
+    "theme_3": {
+      "name": "下一代技术",
+      "description": "Chiplet、存算一体、光子计算",
+      "potential_companies": ["长电科技", "相关初创企业"]
+    }
+  },
+  "risk_assessment": {
+    "geopolitical_risk": "高 - 技术封锁、供应链中断",
+    "technology_risk": "中 - 技术迭代快、专利壁垒",
+    "market_risk": "中 - 竞争激烈、价格战",
+    "policy_risk": "低 - 国家大力支持"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2026-03-18",
+  "lastUpdated": "2026-03-18T16:32:11.044Z",
+  "newsCount": 10,
+  "categories": [
+    "AI科技",
+    "新能源",
+    "商业航天",
+    "经济金融",
+    "国际财经"
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "AI芯片技术新突破，国产替代加速",
+      "source": "科技日报",
+      "time": "2026-03-19 08:00",
+      "summary": "国内AI芯片企业宣布新一代芯片研发成功，性能提升30%，功耗降低20%",
+      "category": "AI科技",
+      "url": "https://example.com/news1"
+    },
+    {
+      "id": 2,
+      "title": "新能源汽车销量再创新高",
+      "source": "经济参考报",
+      "time": "2026-03-19 09:15",
+      "summary": "3月份新能源汽车销量同比增长45%，市场渗透率达到35%",
+      "category": "新能源",
+      "url": "https://example.com/news2"
+    },
+    {
+      "id": 3,
+      "title": "商业航天公司完成新一轮融资",
+      "source": "证券时报",
+      "time": "2026-03-19 10:30",
+      "summary": "国内商业航天公司完成10亿元融资，将用于卫星互联网建设",
+      "category": "商业航天",
+      "url": "https://example.com/news3"
+    },
+    {
+      "id": 4,
+      "title": "国际油价持续上涨，通胀压力增大",
+      "source": "华尔街见闻",
+      "time": "2026-03-19 11:45",
+      "summary": "国际油价突破每桶90美元，全球通胀压力进一步增大",
+      "category": "经济金融",
+      "url": "https://example.com/news4"
+    },
+    {
+      "id": 5,
+      "title": "AI大模型应用加速落地",
+      "source": "36氪",
+      "time": "2026-03-19 13:00",
+      "summary": "多家企业宣布AI大模型在金融、医疗、教育等领域的应用案例",
+      "category": "AI科技",
+      "url": "https://example.com/news5"
+    },
+    {
+      "id": 6,
+      "title": "可再生能源装机容量创新高",
+      "source": "能源局",
+      "time": "2026-03-19 14:15",
+      "summary": "全国可再生能源装机容量突破15亿千瓦，占比超过50%",
+      "category": "新能源",
+      "url": "https://example.com/news6"
+    },
+    {
+      "id": 7,
+      "title": "太空旅游商业化进程加速",
+      "source": "航天新闻",
+      "time": "2026-03-19 15:30",
+      "summary": "多家公司宣布太空旅游计划，预计2027年实现商业化运营",
+      "category": "商业航天",
+      "url": "https://example.com/news7"
+    },
+    {
+      "id": 8,
+      "title": "美联储维持利率不变",
+      "source": "路透社",
+      "time": "2026-03-19 16:45",
+      "summary": "美联储宣布维持基准利率不变，市场预期年内可能降息",
+      "category": "国际财经",
+      "url": "https://example.com/news8"
+    },
+    {
+      "id": 9,
+      "title": "AI辅助药物研发取得突破",
+      "source": "医药经济报",
+      "time": "2026-03-19 17:00",
+      "summary": "AI技术在药物研发中的应用取得重要突破，研发周期缩短40%",
+      "category": "AI科技",
+      "url": "https://example.com/news9"
+    },
+    {
+      "id": 10,
+      "title": "氢能产业发展规划发布",
+      "source": "发改委",
+      "time": "2026-03-19 18:15",
+      "summary": "国家发布氢能产业发展规划，目标到2030年产值突破1万亿元",
+      "category": "新能源",
+      "url": "https://example.com/news10"
+    }
+  ]
+}
