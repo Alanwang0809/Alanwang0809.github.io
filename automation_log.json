@@ -1,0 +1,43 @@
+[
+  {
+    "timestamp": "2026-03-19T01:44:44.001Z",
+    "beijing_time": "2026-03-19T09:44:44.001Z",
+    "system": "新闻网站修复版自动化系统",
+    "version": "3.0",
+    "results": [
+      {
+        "step": "系统状态检查",
+        "success": true,
+        "time_seconds": "0.2",
+        "timestamp": "2026-03-19T01:44:29.586Z"
+      },
+      {
+        "step": "今日新闻收集",
+        "success": true,
+        "time_seconds": "0.0",
+        "timestamp": "2026-03-19T01:44:29.588Z"
+      },
+      {
+        "step": "新闻数据更新",
+        "success": true,
+        "time_seconds": "0.2",
+        "timestamp": "2026-03-19T01:44:29.779Z"
+      },
+      {
+        "step": "GitHub网站更新",
+        "success": false,
+        "time_seconds": "14.2",
+        "timestamp": "2026-03-19T01:44:43.999Z"
+      },
+      {
+        "step": "网站更新验证",
+        "success": true,
+        "time_seconds": "0.0",
+        "timestamp": "2026-03-19T01:44:44.001Z"
+      }
+    ],
+    "status": "partial_failure",
+    "next_run": "明天 08:30",
+    "fix_applied": "修复了GitHub推送保护问题"
+  }
+]
