@@ -1,0 +1,303 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-20T02:27:17.000+08:00",
+    "source": "自动更新系统",
+    "total_news": 25,
+    "categories": [
+      "AI科技",
+      "新能源",
+      "商业航天",
+      "国际财经",
+      "经济金融"
+    ],
+    "version": "2.0",
+    "automation_ready": true,
+    "next_update": "2026-03-20 08:30",
+    "test_purpose": "自动更新 - 2026-03-20"
+  },
+  "news": [
+    {
+      "id": 1,
+      "order": 0,
+      "title": "1. 美以伊战事进入第二十一天，最新动态",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "美国、以色列、伊朗",
+      "event": "美以伊三方冲突已持续21天，最新动态显示伊朗祭出了此前从未投入使用的\"新型导弹\"作为新王牌。特朗普在攻击伊朗前未告知日本，并在会晤日本防卫大臣高市早苗时表示\"没人比日本更懂偷袭\"。",
+      "impact": [
+        "中东局势持续紧张，可能影响全球能源供应"
+      ],
+      "link": "https://finance.sina.com.cn/wm/2026-03-20/doc-inhrqyif6870008.shtml"
+    },
+    {
+      "id": 2,
+      "order": 1,
+      "title": "2. 特朗普会晤高市早苗：谁能比日本更懂偷袭",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "美国前总统特朗普、日本防卫大臣高市早苗",
+      "event": "特朗普在会晤日本防卫大臣高市早苗时，就攻击伊朗前未告知日本一事表示\"没人比日本更懂偷袭\"，高市早苗努力保持微笑应对。",
+      "impact": [],
+      "link": "https://finance.sina.com.cn/wm/2026-03-20/doc-inhrqtyz8133567.shtml"
+    },
+    {
+      "id": 3,
+      "order": 2,
+      "title": "3. 伊朗祭出新型导弹作为新王牌",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "伊朗",
+      "event": "伊朗在美以伊冲突中祭出了此前从未投入使用的\"新型导弹\"，被外界视为其新王牌武器。",
+      "impact": [],
+      "link": "https://finance.sina.com.cn/roll/2026-03-20/doc-inhrqptc8241148.shtml"
+    },
+    {
+      "id": 4,
+      "order": 3,
+      "title": "4. 82位英国作家\"齐聚\"上海：来一场跨越五个世纪的文学巡礼",
+      "category": "general",
+      "time": "2026-03-19",
+      "subject": "英国作家、上海",
+      "event": "82位英国作家作品在上海集中展出，呈现跨越五个世纪的英国文学发展历程。",
+      "impact": [
+        "提升上海国际文化影响力"
+      ],
+      "link": "https://www.thepaper.cn/newsDetail_forward_32795058"
+    },
+    {
+      "id": 5,
+      "order": 4,
+      "title": "5. 姆贝莫领衔喀麦隆战国足大名单",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "喀麦隆国家队、中国国家队",
+      "event": "喀麦隆公布对阵中国国家队的大名单，姆贝莫领衔，12人首次入选，核心阵容稳固。",
+      "impact": [],
+      "link": "https://k.sina.com.cn/article_1716376363_664dd32b02001qscc.html"
+    },
+    {
+      "id": 6,
+      "order": 5,
+      "title": "6. 64胜18负！莫布里：本赛季的开局不如上赛季",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "NBA球员莫布里",
+      "event": "莫布里表示本赛季开局不如上赛季，但球队会强势收官，目前战绩64胜18负。",
+      "impact": [
+        "球员心态对球队成绩的影响"
+      ],
+      "link": "https://sports.sina.com.cn/basketball/nba/2026-03-20/doc-inhrqyhx8079034.shtml"
+    },
+    {
+      "id": 7,
+      "order": 6,
+      "title": "7. 帕里什：詹姆斯现在仍然打出全明星水准",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "NBA传奇帕里什、勒布朗·詹姆斯",
+      "event": "NBA传奇球员帕里什称赞勒布朗·詹姆斯现在仍然打出全明星水准，这同样令人赞叹。",
+      "impact": [],
+      "link": "https://sports.sina.com.cn/basketball/nba/2026-03-20/doc-inhrqyif6877649.shtml"
+    },
+    {
+      "id": 8,
+      "order": 7,
+      "title": "8. 翻江倒海！文班亚马冲击内线强攻不中，随后起飞单臂补扣",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "NBA球员文班亚马",
+      "event": "文班亚马在比赛中冲击内线强攻不中，随后起飞完成单臂补扣，展现惊人身体素质。",
+      "impact": [],
+      "link": "https://sports.sina.com.cn/basketball/nba/2026-03-20/doc-inhrqyia4078926.shtml"
+    },
+    {
+      "id": 9,
+      "order": 8,
+      "title": "9. 以一敌二！\"万吨大驱\"南昌舰逼退外舰，细节公布",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "中国海军南昌舰",
+      "event": "中国海军\"万吨大驱\"南昌舰在执行任务时，以一敌二逼退外舰，相关细节近日公布。",
+      "impact": [],
+      "link": "https://finance.sina.com.cn/jjxw/2026-03-20/doc-inhrqtzi6954666.shtml"
+    },
+    {
+      "id": 10,
+      "order": 9,
+      "title": "10. 呼和浩特：开展有奖发票试点，激发消费市场活力",
+      "category": "general",
+      "time": "2026-03-19",
+      "subject": "呼和浩特市政府",
+      "event": "呼和浩特市开展有奖发票试点工作，通过激励措施激发消费市场活力。",
+      "impact": [],
+      "link": "https://news.sina.com.cn/zx/gj/2026-03-19/doc-inhrpspu1389639.shtml"
+    },
+    {
+      "id": 11,
+      "order": 10,
+      "title": "11. 编制国土空间规划为何要引入\"1米高度\"视角？",
+      "category": "general",
+      "time": "2026-03-19",
+      "subject": "国家自然资源部",
+      "event": "国土空间规划编制引入\"1米高度\"视角，从儿童视角出发优化城市规划设计。",
+      "impact": [],
+      "link": "https://news.sina.com.cn/zx/gj/2026-03-19/doc-inhrpwvq4525039.shtml"
+    },
+    {
+      "id": 12,
+      "order": 11,
+      "title": "12. 什么是低碳社区？吉州区打造出一把\"标尺\"",
+      "category": "general",
+      "time": "2026-03-19",
+      "subject": "吉州区政府",
+      "event": "吉州区通过实践探索，打造出低碳社区建设的\"标尺\"，为全国提供可复制经验。",
+      "impact": [],
+      "link": "https://news.sina.com.cn/zx/gj/2026-03-19/doc-inhrpnfu4665459.shtml"
+    },
+    {
+      "id": 13,
+      "order": 12,
+      "title": "13. 其闻天下｜一场跨越38年的重逢，见证中国人的信义与担当",
+      "category": "general",
+      "time": "2026-03-19",
+      "subject": "普通中国民众",
+      "event": "报道一场跨越38年的感人重逢故事，见证中国人的信义精神与社会担当。",
+      "impact": [],
+      "link": "https://news.sina.com.cn/zx/gj/2026-03-19/doc-inhrpnfx7441131.shtml"
+    },
+    {
+      "id": 14,
+      "order": 13,
+      "title": "14. 六年爱情长跑，二次送男友参军，莒县姑娘楚宁宁：多久我都等着你",
+      "category": "general",
+      "time": "2026-03-19",
+      "subject": "莒县姑娘楚宁宁",
+      "event": "莒县姑娘楚宁宁经历六年爱情长跑，二次送男友参军，表达坚定等待的决心。",
+      "impact": [],
+      "link": "https://news.sina.com.cn/zx/gj/2026-03-19/doc-inhrpspv7399660.shtml"
+    },
+    {
+      "id": 15,
+      "order": 14,
+      "title": "15. 数读中国开局新活力｜同比多20%的候鸟飞抵，吉林生态流量变现\"观鸟经济\"",
+      "category": "general",
+      "time": "2026-03-19",
+      "subject": "吉林省",
+      "event": "吉林省候鸟数量同比增加20%，生态流量成功变现为\"观鸟经济\"，推动绿色发展。",
+      "impact": [],
+      "link": "https://news.sina.com.cn/zx/gj/2026-03-19/doc-inhrpnfr8643198.shtml"
+    },
+    {
+      "id": 16,
+      "order": 15,
+      "title": "16. 华为：智能化迈向广阔应用阶段，Token经济新蓝海开启",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "华为公司",
+      "event": "华为宣布智能化技术正迈向广阔应用阶段，Token经济成为新的发展蓝海，将在多个领域展开应用。",
+      "impact": [],
+      "link": "https://finance.sina.com.cn/roll/2026-03-20/doc-inhrqimp7119236.shtml"
+    },
+    {
+      "id": 17,
+      "order": 16,
+      "title": "17. 雷军称小米将做电脑龙虾！手机龙虾已开放测试",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "小米公司、雷军",
+      "event": "小米CEO雷军宣布公司将推出\"电脑龙虾\"产品，此前\"手机龙虾\"已开放测试，展现公司在AI硬件领域的创新布局。",
+      "impact": [],
+      "link": "https://finance.sina.com.cn/tech/discovery/2026-03-20/doc-inhrqtzi6940662.shtml"
+    },
+    {
+      "id": 18,
+      "order": 17,
+      "title": "18. 豆包开启AI购物内测，电商平台加码\"一句话购物\"",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "豆包（电商平台）",
+      "event": "豆包电商平台开启AI购物功能内测，加码\"一句话购物\"体验，用户可通过自然语言指令完成购物。",
+      "impact": [],
+      "link": "https://finance.sina.com.cn/jjxw/2026-03-20/doc-inhrqtyz8132490.shtml"
+    },
+    {
+      "id": 19,
+      "order": 18,
+      "title": "19. Apple ID被盗刷四笔近3000元，苹果仅退一笔拒全责",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "苹果公司、消费者",
+      "event": "消费者Apple ID被盗刷四笔近3000元，苹果公司仅退还一笔并拒绝承担全部责任，引发用户权益保护讨论。",
+      "impact": [],
+      "link": "https://tousu.sina.com.cn/complaint/view/17394715886/"
+    },
+    {
+      "id": 20,
+      "order": 19,
+      "title": "20. 对话\"不同资本\"投资副总裁：大模型时代下的AI硬件远征，软件收费或成未来增长核心？",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "不同资本投资副总裁",
+      "event": "专访不同资本投资副总裁，探讨大模型时代下AI硬件发展趋势，软件收费模式可能成为未来增长核心。",
+      "impact": [],
+      "link": "https://www.huxiu.com/article/4842082.html"
+    },
+    {
+      "id": 21,
+      "order": 20,
+      "title": "21. 欧阳奋强：快60岁时，才略微读懂了\"贾宝玉\"",
+      "category": "general",
+      "time": "2026-03-19",
+      "subject": "演员欧阳奋强",
+      "event": "87版《红楼梦》贾宝玉扮演者欧阳奋强表示，在快60岁时才略微读懂了\"贾宝玉\"这个角色，分享艺术创作感悟。",
+      "impact": [],
+      "link": "https://www.thepaper.cn/newsDetail_forward_32789669"
+    },
+    {
+      "id": 22,
+      "order": 21,
+      "title": "22. 社保基金重仓股出炉！这4股重仓超10亿元，新进扫货11股",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "全国社保基金",
+      "event": "社保基金最新重仓股名单出炉，其中4只股票重仓超过10亿元，新进买入11只股票，显示投资布局调整。",
+      "impact": [
+        "影响相关股票市场表现"
+      ],
+      "link": "https://finance.sina.com.cn/wm/2026-03-20/doc-inhrqtyz8153870.shtml"
+    },
+    {
+      "id": 23,
+      "order": 22,
+      "title": "23. 商办最低首付调至3成，北上广杭蓉锁定一线城市",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "国家相关部门、一线城市",
+      "event": "商业办公地产最低首付比例调整至3成，北京、上海、广州、杭州、成都锁定为一线城市范围。",
+      "impact": [],
+      "link": "http://bj.leju.com/"
+    },
+    {
+      "id": 24,
+      "order": 23,
+      "title": "24. 多地宣布27年缩减中考计分科目",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "各地教育部门",
+      "event": "全国多地宣布将从2027年开始缩减中考计分科目，推进教育评价改革。",
+      "impact": [],
+      "link": "https://edu.sina.com.cn/"
+    },
+    {
+      "id": 25,
+      "order": 24,
+      "title": "25. 南县：指尖管大棚，脚下种辣椒",
+      "category": "general",
+      "time": "2026-03-19",
+      "subject": "南县农业部门",
+      "event": "南县推广\"指尖管大棚，脚下种辣椒\"的智慧农业模式，通过科技手段提升农业生产效率。",
+      "impact": [],
+      "link": "https://news.sina.com.cn/zx/gj/2026-03-19/doc-inhrpnfx7441017.shtml"
+    }
+  ]
+}
