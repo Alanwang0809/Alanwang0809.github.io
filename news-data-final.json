@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-19T09:14:32.284+08:00",
+    "generated_at": "2026-03-20T02:27:17.000+08:00",
     "source": "自动更新系统",
-    "total_news": 15,
+    "total_news": 25,
     "categories": [
       "AI科技",
       "新能源",
@@ -13,233 +13,291 @@
     "version": "2.0",
     "automation_ready": true,
     "next_update": "2026-03-20 08:30",
-    "test_purpose": "正式自动更新 - 2026年3月19日"
+    "test_purpose": "自动更新 - 2026-03-20"
   },
   "news": [
     {
       "id": 1,
       "order": 0,
-      "title": "AI芯片国产化进程加速，多家企业发布新品",
-      "category": "ai",
-      "time": "2026-03-19 08:30",
-      "subject": "科技日报",
-      "event": "国内AI芯片企业集中发布新一代产品，性能接近国际先进水平，国产替代趋势明显",
+      "title": "1. 美以伊战事进入第二十一天，最新动态",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "美国、以色列、伊朗",
+      "event": "美以伊三方冲突已持续21天，最新动态显示伊朗祭出了此前从未投入使用的\"新型导弹\"作为新王牌。特朗普在攻击伊朗前未告知日本，并在会晤日本防卫大臣高市早苗时表示\"没人比日本更懂偷袭\"。",
       "impact": [
-        "来源: 科技日报",
-        "类别: AI科技",
-        "发布时间: 2026-03-19 08:30"
+        "中东局势持续紧张，可能影响全球能源供应"
       ],
-      "link": "https://tech.sina.com.cn/ai/2026-03-19/doc-imcstqrm1234567.shtml"
+      "link": "https://finance.sina.com.cn/wm/2026-03-20/doc-inhrqyif6870008.shtml"
     },
     {
       "id": 2,
       "order": 1,
-      "title": "新能源汽车3月销量创新高，渗透率达38%",
-      "category": "energy",
-      "time": "2026-03-19 09:45",
-      "subject": "汽车之家",
-      "event": "3月前两周新能源汽车销量同比增长52%，市场渗透率首次突破38%",
-      "impact": [
-        "来源: 汽车之家",
-        "类别: 新能源",
-        "发布时间: 2026-03-19 09:45"
-      ],
-      "link": "https://auto.sina.com.cn/news/2026-03-19/doc-imcstqrm7654321.shtml"
+      "title": "2. 特朗普会晤高市早苗：谁能比日本更懂偷袭",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "美国前总统特朗普、日本防卫大臣高市早苗",
+      "event": "特朗普在会晤日本防卫大臣高市早苗时，就攻击伊朗前未告知日本一事表示\"没人比日本更懂偷袭\"，高市早苗努力保持微笑应对。",
+      "impact": [],
+      "link": "https://finance.sina.com.cn/wm/2026-03-20/doc-inhrqtyz8133567.shtml"
     },
     {
       "id": 3,
       "order": 2,
-      "title": "商业航天公司完成卫星互联网测试",
-      "category": "space",
-      "time": "2026-03-19 10:20",
-      "subject": "航天新闻",
-      "event": "国内商业航天公司成功完成低轨卫星互联网通信测试，网速达到100Mbps",
-      "impact": [
-        "来源: 航天新闻",
-        "类别: 商业航天",
-        "发布时间: 2026-03-19 10:20"
-      ],
-      "link": "https://finance.sina.com.cn/tech/2026-03-19/doc-imcstqrm9876543.shtml"
+      "title": "3. 伊朗祭出新型导弹作为新王牌",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "伊朗",
+      "event": "伊朗在美以伊冲突中祭出了此前从未投入使用的\"新型导弹\"，被外界视为其新王牌武器。",
+      "impact": [],
+      "link": "https://finance.sina.com.cn/roll/2026-03-20/doc-inhrqptc8241148.shtml"
     },
     {
       "id": 4,
       "order": 3,
-      "title": "美联储暗示可能提前降息，全球股市反弹",
-      "category": "international",
-      "time": "2026-03-19 11:15",
-      "subject": "华尔街见闻",
-      "event": "美联储官员暗示如果通胀持续下降，可能提前启动降息周期",
+      "title": "4. 82位英国作家\"齐聚\"上海：来一场跨越五个世纪的文学巡礼",
+      "category": "general",
+      "time": "2026-03-19",
+      "subject": "英国作家、上海",
+      "event": "82位英国作家作品在上海集中展出，呈现跨越五个世纪的英国文学发展历程。",
       "impact": [
-        "来源: 华尔街见闻",
-        "类别: 国际财经",
-        "发布时间: 2026-03-19 11:15"
+        "提升上海国际文化影响力"
       ],
-      "link": "https://finance.sina.com.cn/stock/usstock/2026-03-19/doc-imcstqrm1111111.shtml"
+      "link": "https://www.thepaper.cn/newsDetail_forward_32795058"
     },
     {
       "id": 5,
       "order": 4,
-      "title": "AI大模型在金融风控领域应用突破",
-      "category": "ai",
-      "time": "2026-03-19 13:30",
-      "subject": "证券时报",
-      "event": "多家银行和金融机构宣布采用AI大模型进行风险控制，准确率提升25%",
-      "impact": [
-        "来源: 证券时报",
-        "类别: AI科技",
-        "发布时间: 2026-03-19 13:30"
-      ],
-      "link": "https://finance.sina.com.cn/money/bank/2026-03-19/doc-imcstqrm2222222.shtml"
+      "title": "5. 姆贝莫领衔喀麦隆战国足大名单",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "喀麦隆国家队、中国国家队",
+      "event": "喀麦隆公布对阵中国国家队的大名单，姆贝莫领衔，12人首次入选，核心阵容稳固。",
+      "impact": [],
+      "link": "https://k.sina.com.cn/article_1716376363_664dd32b02001qscc.html"
     },
     {
       "id": 6,
       "order": 5,
-      "title": "光伏发电成本再创新低，已低于煤电",
-      "category": "energy",
-      "time": "2026-03-19 14:45",
-      "subject": "能源局",
-      "event": "最新数据显示，光伏发电度电成本已降至0.15元/度，首次低于煤电成本",
+      "title": "6. 64胜18负！莫布里：本赛季的开局不如上赛季",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "NBA球员莫布里",
+      "event": "莫布里表示本赛季开局不如上赛季，但球队会强势收官，目前战绩64胜18负。",
       "impact": [
-        "来源: 能源局",
-        "类别: 新能源",
-        "发布时间: 2026-03-19 14:45"
+        "球员心态对球队成绩的影响"
       ],
-      "link": "https://finance.sina.com.cn/chanjing/cyxw/2026-03-19/doc-imcstqrm3333333.shtml"
+      "link": "https://sports.sina.com.cn/basketball/nba/2026-03-20/doc-inhrqyhx8079034.shtml"
     },
     {
       "id": 7,
       "order": 6,
-      "title": "太空旅游票价大幅下降，2027年或迎爆发",
-      "category": "space",
-      "time": "2026-03-19 15:50",
-      "subject": "环球时报",
-      "event": "多家太空旅游公司宣布降价，最低票价降至50万美元，预计2027年将迎来爆发期",
-      "impact": [
-        "来源: 环球时报",
-        "类别: 商业航天",
-        "发布时间: 2026-03-19 15:50"
-      ],
-      "link": "https://news.sina.com.cn/c/2026-03-19/doc-imcstqrm4444444.shtml"
+      "title": "7. 帕里什：詹姆斯现在仍然打出全明星水准",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "NBA传奇帕里什、勒布朗·詹姆斯",
+      "event": "NBA传奇球员帕里什称赞勒布朗·詹姆斯现在仍然打出全明星水准，这同样令人赞叹。",
+      "impact": [],
+      "link": "https://sports.sina.com.cn/basketball/nba/2026-03-20/doc-inhrqyif6877649.shtml"
     },
     {
       "id": 8,
       "order": 7,
-      "title": "人民币国际化进程加速，多国增加人民币储备",
-      "category": "finance",
-      "time": "2026-03-19 16:35",
-      "subject": "新华社",
-      "event": "多个国家央行宣布增加人民币外汇储备，人民币在全球支付中占比提升至5.2%",
-      "impact": [
-        "来源: 新华社",
-        "类别: 经济金融",
-        "发布时间: 2026-03-19 16:35"
-      ],
-      "link": "https://finance.sina.com.cn/money/forex/2026-03-19/doc-imcstqrm5555555.shtml"
+      "title": "8. 翻江倒海！文班亚马冲击内线强攻不中，随后起飞单臂补扣",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "NBA球员文班亚马",
+      "event": "文班亚马在比赛中冲击内线强攻不中，随后起飞完成单臂补扣，展现惊人身体素质。",
+      "impact": [],
+      "link": "https://sports.sina.com.cn/basketball/nba/2026-03-20/doc-inhrqyia4078926.shtml"
     },
     {
       "id": 9,
       "order": 8,
-      "title": "AI辅助新药研发效率提升3倍",
-      "category": "ai",
-      "time": "2026-03-19 17:20",
-      "subject": "医药经济报",
-      "event": "AI技术在药物研发中的应用取得突破性进展，研发周期从10年缩短至3年",
-      "impact": [
-        "来源: 医药经济报",
-        "类别: AI科技",
-        "发布时间: 2026-03-19 17:20"
-      ],
-      "link": "https://med.sina.com.cn/article/2026-03-19/doc-imcstqrm6666666.shtml"
+      "title": "9. 以一敌二！\"万吨大驱\"南昌舰逼退外舰，细节公布",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "中国海军南昌舰",
+      "event": "中国海军\"万吨大驱\"南昌舰在执行任务时，以一敌二逼退外舰，相关细节近日公布。",
+      "impact": [],
+      "link": "https://finance.sina.com.cn/jjxw/2026-03-20/doc-inhrqtzi6954666.shtml"
     },
     {
       "id": 10,
       "order": 9,
-      "title": "氢能汽车商业化运营正式启动",
-      "category": "energy",
-      "time": "2026-03-19 18:10",
-      "subject": "经济参考报",
-      "event": "国内首个氢能汽车商业化运营项目在长三角地区正式启动，首批投放100辆氢能出租车",
-      "impact": [
-        "来源: 经济参考报",
-        "类别: 新能源",
-        "发布时间: 2026-03-19 18:10"
-      ],
-      "link": "https://auto.sina.com.cn/news/hybrid/2026-03-19/doc-imcstqrm7777777.shtml"
+      "title": "10. 呼和浩特：开展有奖发票试点，激发消费市场活力",
+      "category": "general",
+      "time": "2026-03-19",
+      "subject": "呼和浩特市政府",
+      "event": "呼和浩特市开展有奖发票试点工作，通过激励措施激发消费市场活力。",
+      "impact": [],
+      "link": "https://news.sina.com.cn/zx/gj/2026-03-19/doc-inhrpspu1389639.shtml"
     },
     {
       "id": 11,
       "order": 10,
-      "title": "卫星制造产能大幅提升，年产量突破1000颗",
-      "category": "space",
-      "time": "2026-03-19 19:05",
-      "subject": "航天科技",
-      "event": "国内卫星制造企业产能大幅提升，年产量突破1000颗，成本下降30%",
-      "impact": [
-        "来源: 航天科技",
-        "类别: 商业航天",
-        "发布时间: 2026-03-19 19:05"
-      ],
-      "link": "https://tech.sina.com.cn/it/2026-03-19/doc-imcstqrm8888888.shtml"
+      "title": "11. 编制国土空间规划为何要引入\"1米高度\"视角？",
+      "category": "general",
+      "time": "2026-03-19",
+      "subject": "国家自然资源部",
+      "event": "国土空间规划编制引入\"1米高度\"视角，从儿童视角出发优化城市规划设计。",
+      "impact": [],
+      "link": "https://news.sina.com.cn/zx/gj/2026-03-19/doc-inhrpwvq4525039.shtml"
     },
     {
       "id": 12,
       "order": 11,
-      "title": "全球AI投资热潮持续，一季度融资超500亿美元",
-      "category": "ai",
-      "time": "2026-03-19 20:00",
-      "subject": "36氪",
-      "event": "2026年第一季度全球AI领域融资额超过500亿美元，创历史新高",
-      "impact": [
-        "来源: 36氪",
-        "类别: AI科技",
-        "发布时间: 2026-03-19 20:00"
-      ],
-      "link": "https://36kr.com/p/2026031912345678"
+      "title": "12. 什么是低碳社区？吉州区打造出一把\"标尺\"",
+      "category": "general",
+      "time": "2026-03-19",
+      "subject": "吉州区政府",
+      "event": "吉州区通过实践探索，打造出低碳社区建设的\"标尺\"，为全国提供可复制经验。",
+      "impact": [],
+      "link": "https://news.sina.com.cn/zx/gj/2026-03-19/doc-inhrpnfu4665459.shtml"
     },
     {
       "id": 13,
       "order": 12,
-      "title": "储能技术突破，充电时间缩短至5分钟",
-      "category": "energy",
-      "time": "2026-03-19 21:15",
-      "subject": "科技前沿",
-      "event": "新型储能技术实现突破，电动汽车充电时间从1小时缩短至5分钟",
-      "impact": [
-        "来源: 科技前沿",
-        "类别: 新能源",
-        "发布时间: 2026-03-19 21:15"
-      ],
-      "link": "https://tech.qq.com/a/20260319/123456.htm"
+      "title": "13. 其闻天下｜一场跨越38年的重逢，见证中国人的信义与担当",
+      "category": "general",
+      "time": "2026-03-19",
+      "subject": "普通中国民众",
+      "event": "报道一场跨越38年的感人重逢故事，见证中国人的信义精神与社会担当。",
+      "impact": [],
+      "link": "https://news.sina.com.cn/zx/gj/2026-03-19/doc-inhrpnfx7441131.shtml"
     },
     {
       "id": 14,
       "order": 13,
-      "title": "商业火箭发射成本降至每公斤2000美元",
-      "category": "space",
-      "time": "2026-03-19 22:30",
-      "subject": "航天产业",
-      "event": "国内商业火箭公司宣布发射成本大幅下降，每公斤载荷成本降至2000美元",
-      "impact": [
-        "来源: 航天产业",
-        "类别: 商业航天",
-        "发布时间: 2026-03-19 22:30"
-      ],
-      "link": "https://news.163.com/26/0319/22/ABC123456789ABCD.html"
+      "title": "14. 六年爱情长跑，二次送男友参军，莒县姑娘楚宁宁：多久我都等着你",
+      "category": "general",
+      "time": "2026-03-19",
+      "subject": "莒县姑娘楚宁宁",
+      "event": "莒县姑娘楚宁宁经历六年爱情长跑，二次送男友参军，表达坚定等待的决心。",
+      "impact": [],
+      "link": "https://news.sina.com.cn/zx/gj/2026-03-19/doc-inhrpspv7399660.shtml"
     },
     {
       "id": 15,
       "order": 14,
-      "title": "AI在投资分析中的应用日益广泛",
-      "category": "ai",
-      "time": "2026-03-19 23:45",
-      "subject": "投资界",
-      "event": "超过60%的投资机构开始使用AI进行投资分析和决策支持",
+      "title": "15. 数读中国开局新活力｜同比多20%的候鸟飞抵，吉林生态流量变现\"观鸟经济\"",
+      "category": "general",
+      "time": "2026-03-19",
+      "subject": "吉林省",
+      "event": "吉林省候鸟数量同比增加20%，生态流量成功变现为\"观鸟经济\"，推动绿色发展。",
+      "impact": [],
+      "link": "https://news.sina.com.cn/zx/gj/2026-03-19/doc-inhrpnfr8643198.shtml"
+    },
+    {
+      "id": 16,
+      "order": 15,
+      "title": "16. 华为：智能化迈向广阔应用阶段，Token经济新蓝海开启",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "华为公司",
+      "event": "华为宣布智能化技术正迈向广阔应用阶段，Token经济成为新的发展蓝海，将在多个领域展开应用。",
+      "impact": [],
+      "link": "https://finance.sina.com.cn/roll/2026-03-20/doc-inhrqimp7119236.shtml"
+    },
+    {
+      "id": 17,
+      "order": 16,
+      "title": "17. 雷军称小米将做电脑龙虾！手机龙虾已开放测试",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "小米公司、雷军",
+      "event": "小米CEO雷军宣布公司将推出\"电脑龙虾\"产品，此前\"手机龙虾\"已开放测试，展现公司在AI硬件领域的创新布局。",
+      "impact": [],
+      "link": "https://finance.sina.com.cn/tech/discovery/2026-03-20/doc-inhrqtzi6940662.shtml"
+    },
+    {
+      "id": 18,
+      "order": 17,
+      "title": "18. 豆包开启AI购物内测，电商平台加码\"一句话购物\"",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "豆包（电商平台）",
+      "event": "豆包电商平台开启AI购物功能内测，加码\"一句话购物\"体验，用户可通过自然语言指令完成购物。",
+      "impact": [],
+      "link": "https://finance.sina.com.cn/jjxw/2026-03-20/doc-inhrqtyz8132490.shtml"
+    },
+    {
+      "id": 19,
+      "order": 18,
+      "title": "19. Apple ID被盗刷四笔近3000元，苹果仅退一笔拒全责",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "苹果公司、消费者",
+      "event": "消费者Apple ID被盗刷四笔近3000元，苹果公司仅退还一笔并拒绝承担全部责任，引发用户权益保护讨论。",
+      "impact": [],
+      "link": "https://tousu.sina.com.cn/complaint/view/17394715886/"
+    },
+    {
+      "id": 20,
+      "order": 19,
+      "title": "20. 对话\"不同资本\"投资副总裁：大模型时代下的AI硬件远征，软件收费或成未来增长核心？",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "不同资本投资副总裁",
+      "event": "专访不同资本投资副总裁，探讨大模型时代下AI硬件发展趋势，软件收费模式可能成为未来增长核心。",
+      "impact": [],
+      "link": "https://www.huxiu.com/article/4842082.html"
+    },
+    {
+      "id": 21,
+      "order": 20,
+      "title": "21. 欧阳奋强：快60岁时，才略微读懂了\"贾宝玉\"",
+      "category": "general",
+      "time": "2026-03-19",
+      "subject": "演员欧阳奋强",
+      "event": "87版《红楼梦》贾宝玉扮演者欧阳奋强表示，在快60岁时才略微读懂了\"贾宝玉\"这个角色，分享艺术创作感悟。",
+      "impact": [],
+      "link": "https://www.thepaper.cn/newsDetail_forward_32789669"
+    },
+    {
+      "id": 22,
+      "order": 21,
+      "title": "22. 社保基金重仓股出炉！这4股重仓超10亿元，新进扫货11股",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "全国社保基金",
+      "event": "社保基金最新重仓股名单出炉，其中4只股票重仓超过10亿元，新进买入11只股票，显示投资布局调整。",
       "impact": [
-        "来源: 投资界",
-        "类别: AI科技",
-        "发布时间: 2026-03-19 23:45"
+        "影响相关股票市场表现"
       ],
-      "link": "https://www.pedaily.cn/202603/123456789.shtml"
+      "link": "https://finance.sina.com.cn/wm/2026-03-20/doc-inhrqtyz8153870.shtml"
+    },
+    {
+      "id": 23,
+      "order": 22,
+      "title": "23. 商办最低首付调至3成，北上广杭蓉锁定一线城市",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "国家相关部门、一线城市",
+      "event": "商业办公地产最低首付比例调整至3成，北京、上海、广州、杭州、成都锁定为一线城市范围。",
+      "impact": [],
+      "link": "http://bj.leju.com/"
+    },
+    {
+      "id": 24,
+      "order": 23,
+      "title": "24. 多地宣布27年缩减中考计分科目",
+      "category": "general",
+      "time": "2026-03-20",
+      "subject": "各地教育部门",
+      "event": "全国多地宣布将从2027年开始缩减中考计分科目，推进教育评价改革。",
+      "impact": [],
+      "link": "https://edu.sina.com.cn/"
+    },
+    {
+      "id": 25,
+      "order": 24,
+      "title": "25. 南县：指尖管大棚，脚下种辣椒",
+      "category": "general",
+      "time": "2026-03-19",
+      "subject": "南县农业部门",
+      "event": "南县推广\"指尖管大棚，脚下种辣椒\"的智慧农业模式，通过科技手段提升农业生产效率。",
+      "impact": [],
+      "link": "https://news.sina.com.cn/zx/gj/2026-03-19/doc-inhrpnfx7441017.shtml"
     }
   ]
 }
